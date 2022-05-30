@@ -1,0 +1,46 @@
+.calculator{
+    color: rgb(71, 71, 71);
+    padding: 20px 100px 50px;
+    h3{
+        padding-bottom: 10px;
+        font-size: 1rem;
+    }
+    .container{
+        background: rgb(207, 207, 207);
+        padding: 15px 30px 20px;
+        border-radius: 3px;
+        border: 1px solid rgb(128, 128, 128);
+        div{
+            padding-bottom: 5px;
+        }
+        .input-wrapper{
+            padding-top: 5px;
+            .inp{
+                line-height: 1.2rem;
+                border-radius: 3px;
+                border: 1px solid gray;
+            }
+            select{
+                height: 1.3rem;
+                border-radius: 3px;
+                border: 1px solid gray;
+            }
+            .sub{
+                margin-left: 30px;
+            }
+        }
+        .result-list{
+            padding-top: 5px;
+            h4{
+                font-size: 1rem;
+            }
+            ul{
+                li{
+                    font-size: 0.8rem;
+                    list-style-type: none;
+                    padding-top: 5px;
+                }
+            }
+        }
+    }
+}

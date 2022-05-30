@@ -1,0 +1,45 @@
+footer{
+    background: rgb(34, 34, 34);
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px 20px 50px;
+        .flex-item{
+            .footer-title{
+                padding: 0 30px;
+                span{
+                    color: #fff;
+                    font-size: 1.4rem;
+                    text-decoration: none;
+                }
+                p{
+                    color: rgb(85, 84, 84);
+                    font-size: 0.8rem;
+                }
+            }
+            .list-center, .list-right{
+                padding: 0 30px;
+                li{
+                    list-style: none;
+                    padding-bottom: 10px;
+                    &:last-child{
+                        padding-bottom: 0;
+                    }
+                    span{
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+            .list-center{
+                li:last-child{
+                    span{
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+}

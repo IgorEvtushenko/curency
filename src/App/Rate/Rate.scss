@@ -1,0 +1,39 @@
+.rate{
+    padding: 0 100px ;
+    .get-rate-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0 15px;
+        h3{
+            color: rgb(85, 84, 84);
+            font-size: 1rem;
+        }
+        .get-rate{
+            font-size: 1rem;
+            padding: 5px 10px;
+        }
+    }
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .flex-item{
+            background: rgb(207, 207, 207);
+            padding: 15px 30px 15px;
+            border-radius: 3px;
+            border: 1px solid rgb(128, 128, 128);
+            width: 20%;
+            .curency-name{
+                color: rgb(71, 70, 70);
+                font-size: 1.2rem;
+                padding-bottom: 10px;
+            }
+            .curency-in, .curency-out{
+                color: rgb(71, 70, 70);
+                font-size: 1rem;
+                text-align: right;
+            }
+        }
+    }
+}

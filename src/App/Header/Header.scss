@@ -1,0 +1,16 @@
+header{
+    background: rgb(80, 80, 192);
+    .top-bar{
+        font-size: 12px;
+        min-height: 30px;
+    }
+    .main-header{
+        padding: 20px 40px 40px;
+        h1{
+            font-size: 1.3rem;
+        }
+        .site-title{
+            color: #fff;
+        }
+    }
+}
